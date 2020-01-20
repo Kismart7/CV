@@ -1,80 +1,124 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Gathecha's Personal Site</title>
+  <title>Henry Gathecha</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img class="fit-picture" src="Images\Henry_Profile_Picture.JPG" alt="" </td>
-      <td><h1>Gathecha Henry Munyaka</h1>
-      <p><em>GIS & Remote Sensing Scientist and Full Stack Developer</em></p>
-      <p>I am a GIS and Remote Sensing Scientist as well as a full stack developer.</p>
-      <p>I am a resource person for CIWAB: Centre for Integrated Water and Basin Management</p></td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I am Henry.</h1>
+    <h2> a <span class="pro">pro</span>grammer. </h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="images/myIcon.jpg" alt="my-profile-pic">
+      <h2>Hello.</h2>
+      <p class="intro">I am a GIS and Remote Sensing Scientist and a programmer.
+        I can design and develop both integrated spatial information systems and general web apps for you</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="postgresql-img" src="images/postgreSQL.jpg" alt="postgreSQL-icon">
+        <h3>PostgreSQL</h3>
+        <p>PostgreSQL is an awesome database management system and it's absolutely free!
+          I love basing my apps on postgreSQL due to its simplicity and anyone can take charge of their databases.</p>
+      </div>
+      <div class="skill-row">
+        <img class="python-img" src="images/python.png" alt="Python-icon">
+        <h3>Python</h3>
+        <p class="python-description">Python is my favorite programming language
+          for its robustness and application interms of Data Science, development
+          of Information Management Systems.
+          I have completed numerous projects using Python, including algorithms
+          for GIS and Remote Sensing data handling, processing and analysis as well
+          as Integrated GIS-based Information Systems.</p>
+      </div>
+      <div class="skill-row">
+        <img class="front-end-img" src="images/FrontEnd.png" alt="front-end-icon">
+        <h3>Front end</h3>
+        <p class="front-end-description">With HTML, CSS and Javascript, I progress
+          from the back-end to the front end to esure an enjoyable experience when
+          interacting with a website or a webbapp. The views and information is presented nicely to make
+          the clients happy, thrilled and informed at the same time.</p>
+      </div>
+      <div class="skill-row">
+        <img class="gis-rs-img" src="images/gis.jpg" alt="GIS-RS-icon">
+        <h3>GIS and Remote Sensing</h3>
+        <p class="GIS-RS-description">This mainly based on my education background in GIS and Remote Sensing.
+          I take pride in the opportunity that this has given me to combine my programming
+          skills with practical applications in the Water Resources and Environmental Management field.
+          Besides developing the general information systems, I also develop Integrated
+          GIS-Based Information system, i.e. Information Systems with Spatial characteristics.
+          For GIS-based web apps, I employ the following: PostgreSQL, Apache, Map
+          server, PostGIS, GeoServer, Django and MVC models.</p>
+      </div>
+      <div class="skill-row">
+        <img class="data-Science-img" src="images/dataScience.png" alt="Data-Science-icon">
+        <h3> Data Science</h3>
+        <p class="Open-Earth-description">I am a data enthusiast and I love keeping
+          myself updated in this field. I have skills in various programming languages
+          for data handling including: python, IDL, R, Tensor Flow </p>
+      </div>
+      <hr>
+      <div class="Projects">
+        <h2>My Projects.</h2>
+        <div class="project-row">
+          <h3><a href="http://majisys.itc.utwente.nl/majisys/">MAJISYS.</a></h3>
+          <p class="Majisys-description"><a href="majisys_brochure_2017_low.pdf">MAJISYS</a> is a modern, easy-to-use, extendable,
+            user configurable free and open source (FOSS) web-based platform to share,
+            process, analyze and visualize time series data. My participation in the
+            development of this system turned my interest in web-apps development into
+             a passion.</p>
+        </div>
+        <div class="project-row">
+          <img class="data-visualization-img" src="images/Realtime weather visualization.gif" alt="Realtime-Visualization-icon">
+          <h3>GEONETCast System.</h3>
+          <p class="gnc-description"> GEONETCast is the EUMETSAT service for
+            disseminating satellite data and products to Africa and Latin America
+            in near-real-time. Using this technology, I have implimented near-real-time
+            systems for monitoring the atmosphere (weather) and land surface processes
+            (e.g vegetaion development) for various organizations in Kenya.</p>
+        </div>
+        <div class="project-row">
+          <img class="kenya-visualization-img" src="images/june2017.gif" alt="GNC-Realtime-Visualization-icon">
+          <h3>Lake Naivasha Basin Hydrologic Modelling and Study</h3>
+          <p> I have carried hydrological study of the Lake Naivasha basin using various
+            models including: the CREST distributed model, Microsof Excel Based model, Water Allocation Model.
+          I have also installed and operationalised various types of Hyro-met sensors
+          including their data relaying, processing and visualization systems</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="get-in-touch">Are you thrilled and interested with Integrated spatial
+        information systems or general web apps and websites development? </h3>
+      <p class="contact-message">You want a wholesome integrated spatial information system,
+        with seamless back end data handling and processing processes and an enjoyable yet enticing
+        and easy to use front end? don't hesitate to contact me!</p>
+      <a class="btn" href="mailto:henry.munyaka@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
-  <hr>
-  <h3>Publications and Courses</h3>
-  <ul>
-    <li>Masters of Science (Geo-Information Science and Earth
-      Observation): <strong><a href="https://www.itc.nl/">ITC - University of Twente</a></strong></li>
-    <li>Bachelor of Science (Water Engineering): <strong>Kenyatta University</strong></li>
-    <li>Data Science Course Certification: <strong>365 Data Science Team (online Udemy course)</strong></li>
-    <li>Geospatial Technologies for Agricultural Statistics and
-      Monitoring:<strong>Sigma Regional Training Workshop, Nairobi (Kenya)</strong></li>
-    <li><a href="https://webapps.itc.utwente.nl/librarywww/papers_2015/msc/wrem/gathecha.pdf">Reconstruction of Streamflow Into Lake Naivasha Using Crest Model and Remote Sensed Rainfall and Evapotranspiration</a></li>
 
-  </ul>
-  <hr>
-  <h3>Projects</h3>
-  <ol>
-    <li>Integrated Water Resources Action Plan - <strong>IWRAP</strong></li>
-    <li>MaMaSe: the Mau Mara Serengeti Sustainable Water Initiative</li>
-    <li>Near-Real-Time Monitoring systems for Water Resources and Land Surface Processes using GEONETCast</li>
-  </ol>
-  <hr>
-  <h3>Work Experience</h3>
-  <table border='1'>
-    <tr>
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <td>2017 - 2019</td>
-      <td>Upande Ltd: GIS and Remote Sensing Developer</td>
-    </tr>
-    <tr>
-      <td>2015 -2017</td>
-      <td>ITC-UTwente: Hydro-Informatics Developer</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Python</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-      <td>IDL</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>R</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-      <td>HTML</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>PostgreSQL</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-      <td>PostGIS</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-    </tr>
-  </table>
-  <h3><a href="My-Contacts.html">Contact Me</a></h3>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/munyakz/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2020 Henry Gathecha.</p>
+  </div>
+
 </body>
+
+</html>
